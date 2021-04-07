@@ -1,30 +1,3 @@
-/*function div(a,b){
-    return a/b
-}
-function sub(a,b){
-    return a-b;
-}
-function sum(a,b){
-    return a+b;
-}
-function mod(a,b){
-    return a%b;
-}
-
-function mul(a,b){
-    return a*b;
-}
-
-
-function calculator(a,b,cb){
-
-  return cb(a,b);  
-}
-
-
-console.log(calculator(3,4,mul))
-console.log(calculator(3,4,sub))
-console.log(calculator(3,4,mod))*/
 
 function createDomMani(...arr){
     var element1=document.createElement(arr[0]);
